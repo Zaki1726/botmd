@@ -12,7 +12,9 @@ ye = `@${m.sender.split`@`[0]}`
 let esce = `
 BIG THANKS TO
 Reza
-https://github.com/reza838`
+https://github.com/reza838
+Zakky
+https://github.com/zaki1726`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
