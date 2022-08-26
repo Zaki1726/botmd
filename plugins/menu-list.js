@@ -223,14 +223,16 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
       const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `*${ucapan()}, ${name}*`,
-            description: `${wm}
+            description: ` Hai IM ${wm}
+
 🏳️‍🌈 Runtime : ${uptime}
 🥵 User : ${name}
 🗿 MyOwneer : Zakky
-*Klik Button Untuk Menampilkan Menu*`,
+☠️ NameBot : Azhil-Botz
+`,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "𝚂𝙸𝙻𝙰𝙷𝙺𝙰𝙽 𝙿𝙸𝙻𝙸𝙷 𝙼𝙴𝙽𝚄 𝙳𝙸 𝙱𝙰𝚆𝙰𝙷",
+            footerText: "Klik Button List Menu Untuk Menampilkan Semua Menu",
             mtype: 'listMessage',
             sections: [
               {
