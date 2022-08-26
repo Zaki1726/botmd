@@ -21,7 +21,7 @@ Fakta yang ditemukan dari sejumlah penelitian mengungkapkan kalau kecoak merup
 *Source : Paste dari Nobita Bot Hehe:)*
 `.trim()) 
 handler.help = ['zamandino']
-handler.tags = ['main']
+handler.tags = ['game']
 handler.command = /^(zamandino)$/i
 handler.owner = false
 handler.mods = false
